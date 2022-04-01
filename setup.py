@@ -16,7 +16,7 @@ while (1):
             print("FAILED CONNECT TO ONLINE SHOP")
 
         try:
-            connBank = pymysql.connect(host='remotemysql.com', user='IZyhX68xQb', passwd='Mpl0pLJFGx', db='IZyhX68xQb', port=3306)
+            connBank = pymysql.connect(host='remotemysql.com', user='CIVh0nHZ1z', passwd='BC2nK3R6k2', db='CIVh0nHZ1z', port=3306)
             curBank = connBank.cursor()
         except:
             print("FAILED CONNECT TO BANK")
