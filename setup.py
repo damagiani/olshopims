@@ -10,7 +10,7 @@ while (1):
         connection_to_bank = 1
 
         try:
-            connOlshop = pymysql.connect(host='db4free.net', user='imspraktikumdama', passwd='belajaritustudy11', db='olshopdama', port=3306)
+            connOlshop = pymysql.connect(host='103.55.39.44', user='usfmyid_wikan', passwd='wikanwikan', db='usfmyid_olshopnew', port=3306)
             curOlshop = connOlshop.cursor()
         except:
             print("FAILED CONNECT TO ONLINE SHOP")
